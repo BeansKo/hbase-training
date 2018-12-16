@@ -4,7 +4,12 @@
     <bookmark url="file://$PROJECT_DIR$/src/test/java/com/beans/HBaseScannTest.java" line="288" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc74e570-5214-40f4-9a7d-99e49fa5f420" name="Default" comment="" />
+    <list default="true" id="dc74e570-5214-40f4-9a7d-99e49fa5f420" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hbase-training.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beans/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/beans/App.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,20 +29,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="HBaseScannTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/beans/HBaseScannTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="56" column="26" selection-start-line="56" selection-start-column="26" selection-end-line="56" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#11965#11966#0" expanded="true" />
-                <element signature="e#12022#12023#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="CallLogUtil.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/beans/calllog/CallLogUtil.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -50,14 +41,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestPutCallLog.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/beans/calllog/TestPutCallLog.java">
+      <file leaf-file-name="CallLogRegionObserver.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/beans/calllog/CallLogRegionObserver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="30" column="65" selection-start-line="30" selection-start-column="57" selection-end-line="30" selection-end-column="65" />
+            <state relative-caret-position="450">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="App.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/beans/App.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -71,10 +71,12 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/beans/App.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/beans/AppTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/beans/HBaseTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/beans/HBaseScannTest.java" />
@@ -86,6 +88,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/beans/TestPutCallLog.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/beans/CallLogRegionObserver.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/beans/calllog/CallLogRegionObserver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/beans/App.java" />
       </list>
     </option>
   </component>
@@ -104,17 +107,7 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="hbase-training" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="hbase-training" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
@@ -130,22 +123,19 @@
     <option name="width" value="1400" />
     <option name="height" value="820" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="hbase-training" type="b2602c69:ProjectViewProjectNode" />
               <item name="hbase-training" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hbase-training" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hbase-training" type="462c0819:PsiDirectoryNode" />
-              <item name="doc" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hbase-training" type="b2602c69:ProjectViewProjectNode" />
@@ -182,41 +172,19 @@
               <item name="beans" type="462c0819:PsiDirectoryNode" />
               <item name="calllog" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="hbase-training" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hbase-training" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hbase-training" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hbase-training" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hbase-training" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hbase-training" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="beans" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="BaseRegion&#9;PSI&#9;JAVA://org.apache.hadoop.hbase.coprocessor.BaseRegionObserver&#10;RegionO&#9;PSI&#9;JAVA://org.apache.hadoop.hbase.coprocessor.RegionObserver&#10;TFile&#9;FILE&#9;jar://D:/Frank/MvnRepo/org/apache/hadoop/hadoop-common/2.7.4/hadoop-common-2.7.4-sources.jar!/org/apache/hadoop/io/file/tfile/TFile.java&#10;StoreFile&#9;PSI&#9;JAVA://org.apache.hadoop.hbase.protobuf.generated.SnapshotProtos.SnapshotRegionManifest.StoreFile&#10;storefile&#9;PSI&#9;JAVA://org.apache.hadoop.hbase.protobuf.generated.SnapshotProtos.SnapshotRegionManifest.StoreFile&#10;hfile&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../spark_demo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -446,6 +414,7 @@
       <workItem from="1544274624003" duration="7611000" />
       <workItem from="1544343665348" duration="14302000" />
       <workItem from="1544445201893" duration="2806000" />
+      <workItem from="1544952782126" duration="135000" />
     </task>
     <servers />
   </component>
@@ -482,7 +451,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="105154000" />
+    <option name="totallyTimeSpent" value="105289000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
@@ -497,12 +466,12 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.14398281" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.15994623" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.18951613" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1833811" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22636104" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -551,9 +520,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../MvnRepo/org/apache/hbase/hbase-common/1.4.8/hbase-common-1.4.8.jar!/hbase-default.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../MvnRepo/org/apache/hbase/hbase-common/1.4.8/hbase-common-1.4.8.jar!/hbase-default.xml" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/beans/HBaseScannTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1125">
@@ -606,13 +573,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../MvnRepo/org/apache/hbase/hbase-common/1.4.8/hbase-common-1.4.8-sources.jar!/org/apache/hadoop/hbase/NamespaceDescriptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1025">
-          <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../MvnRepo/org/apache/hbase/hbase-common/1.4.8/hbase-common-1.4.8-sources.jar!/org/apache/hadoop/hbase/NamespaceDescriptor.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/beans/HBaseTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3175">
@@ -655,46 +616,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../MvnRepo/org/apache/hbase/hbase-common/1.4.8/hbase-common-1.4.8-sources.jar!/org/apache/hadoop/hbase/NamespaceDescriptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1505">
-          <caret line="107" column="27" lean-forward="true" selection-start-line="107" selection-start-column="27" selection-end-line="107" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../MvnRepo/org/apache/hbase/hbase-protocol/1.4.8/hbase-protocol-1.4.8-sources.jar!/org/apache/hadoop/hbase/protobuf/generated/SnapshotProtos.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="1242" column="9" lean-forward="true" selection-start-line="1242" selection-start-column="9" selection-end-line="1242" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../MvnRepo/org/apache/hadoop/hadoop-common/2.7.4/hadoop-common-2.7.4-sources.jar!/org/apache/hadoop/io/file/tfile/TFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-14356" />
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../MvnRepo/org/apache/hbase/hbase-client/1.4.8/hbase-client-1.4.8-sources.jar!/org/apache/hadoop/hbase/client/Table.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-147">
-          <caret line="52" column="17" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../MvnRepo/org/apache/hbase/hbase-client/1.4.8/hbase-client-1.4.8-sources.jar!/org/apache/hadoop/hbase/client/HTableInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="36" column="43" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../MvnRepo/org/apache/hbase/hbase-client/1.4.8/hbase-client-1.4.8-sources.jar!/org/apache/hadoop/hbase/client/HTable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2604">
-          <caret line="114" column="19" lean-forward="true" selection-start-line="114" selection-start-column="19" selection-end-line="114" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../MvnRepo/org/apache/hbase/hbase-common/1.4.8/hbase-common-1.4.8-sources.jar!/org/apache/hadoop/hbase/NamespaceDescriptor.java" />
+    <entry file="jar://$PROJECT_DIR$/../../MvnRepo/org/apache/hbase/hbase-protocol/1.4.8/hbase-protocol-1.4.8-sources.jar!/org/apache/hadoop/hbase/protobuf/generated/SnapshotProtos.java" />
+    <entry file="jar://$PROJECT_DIR$/../../MvnRepo/org/apache/hadoop/hadoop-common/2.7.4/hadoop-common-2.7.4-sources.jar!/org/apache/hadoop/io/file/tfile/TFile.java" />
+    <entry file="jar://$PROJECT_DIR$/../../MvnRepo/org/apache/hbase/hbase-client/1.4.8/hbase-client-1.4.8-sources.jar!/org/apache/hadoop/hbase/client/Table.java" />
+    <entry file="jar://$PROJECT_DIR$/../../MvnRepo/org/apache/hbase/hbase-client/1.4.8/hbase-client-1.4.8-sources.jar!/org/apache/hadoop/hbase/client/HTableInterface.java" />
+    <entry file="jar://$PROJECT_DIR$/../../MvnRepo/org/apache/hbase/hbase-client/1.4.8/hbase-client-1.4.8-sources.jar!/org/apache/hadoop/hbase/client/HTable.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/Date.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
@@ -702,58 +629,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../MvnRepo/org/apache/hbase/hbase-common/1.4.8/hbase-common-1.4.8-sources.jar!/org/apache/hadoop/hbase/HConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="763" column="59" lean-forward="true" selection-start-line="763" selection-start-column="59" selection-end-line="763" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../MvnRepo/com/google/guava/guava/12.0.1/guava-12.0.1-sources.jar!/com/google/common/base/Preconditions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="93" selection-start-line="93" selection-end-line="93" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../MvnRepo/org/apache/hbase/hbase-common/1.4.8/hbase-common-1.4.8.jar!/hbase-default.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../MvnRepo/org/apache/hbase/hbase-common/1.4.8/hbase-common-1.4.8-sources.jar!/org/apache/hadoop/hbase/CellUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1075">
-          <caret line="73" selection-start-line="73" selection-end-line="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../MvnRepo/org/apache/hbase/hbase-client/1.4.8/hbase-client-1.4.8-sources.jar!/org/apache/hadoop/hbase/client/Scan.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="468" column="14" selection-start-line="468" selection-start-column="14" selection-end-line="468" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../MvnRepo/org/apache/hbase/hbase-client/1.4.8/hbase-client-1.4.8-sources.jar!/org/apache/hadoop/hbase/HColumnDescriptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-107">
-          <caret line="115" column="29" selection-start-line="115" selection-start-column="29" selection-end-line="115" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../MvnRepo/org/apache/hbase/hbase-server/1.4.8/hbase-server-1.4.8-sources.jar!/org/apache/hadoop/hbase/coprocessor/RegionObserver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="78" column="21" selection-start-line="78" selection-start-column="12" selection-end-line="78" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../MvnRepo/org/apache/hbase/hbase-server/1.4.8/hbase-server-1.4.8-sources.jar!/org/apache/hadoop/hbase/coprocessor/BaseRegionObserver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="73" column="13" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../MvnRepo/org/apache/hbase/hbase-common/1.4.8/hbase-common-1.4.8-sources.jar!/org/apache/hadoop/hbase/HConstants.java" />
+    <entry file="jar://$PROJECT_DIR$/../../MvnRepo/com/google/guava/guava/12.0.1/guava-12.0.1-sources.jar!/com/google/common/base/Preconditions.java" />
+    <entry file="jar://$PROJECT_DIR$/../../MvnRepo/org/apache/hbase/hbase-common/1.4.8/hbase-common-1.4.8.jar!/hbase-default.xml" />
+    <entry file="jar://$PROJECT_DIR$/../../MvnRepo/org/apache/hbase/hbase-common/1.4.8/hbase-common-1.4.8-sources.jar!/org/apache/hadoop/hbase/CellUtil.java" />
+    <entry file="jar://$PROJECT_DIR$/../../MvnRepo/org/apache/hbase/hbase-client/1.4.8/hbase-client-1.4.8-sources.jar!/org/apache/hadoop/hbase/client/Scan.java" />
+    <entry file="jar://$PROJECT_DIR$/../../MvnRepo/org/apache/hbase/hbase-client/1.4.8/hbase-client-1.4.8-sources.jar!/org/apache/hadoop/hbase/HColumnDescriptor.java" />
+    <entry file="jar://$PROJECT_DIR$/../../MvnRepo/org/apache/hbase/hbase-server/1.4.8/hbase-server-1.4.8-sources.jar!/org/apache/hadoop/hbase/coprocessor/RegionObserver.java" />
+    <entry file="jar://$PROJECT_DIR$/../../MvnRepo/org/apache/hbase/hbase-server/1.4.8/hbase-server-1.4.8-sources.jar!/org/apache/hadoop/hbase/coprocessor/BaseRegionObserver.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/beans/MyRegionObserver.java" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/hbase-site.xml">
@@ -763,67 +646,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../MvnRepo/org/apache/hbase/hbase-client/1.4.8/hbase-client-1.4.8-sources.jar!/org/apache/hadoop/hbase/client/ConnectionFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4800">
-          <caret line="218" column="3" selection-start-line="218" selection-start-column="3" selection-end-line="218" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../MvnRepo/org/apache/hbase/hbase-client/1.4.8/hbase-client-1.4.8-sources.jar!/org/apache/hadoop/hbase/client/ConnectionFactory.java" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/hdfs-site.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../MvnRepo/junit/junit/4.11/junit-4.11-sources.jar!/org/junit/runners/ParentRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1054">
-          <caret line="273" column="31" lean-forward="true" selection-start-line="273" selection-start-column="31" selection-end-line="273" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../MvnRepo/junit/junit/4.11/junit-4.11-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../MvnRepo/org/apache/hbase/hbase-common/1.4.8/hbase-common-1.4.8-sources.jar!/org/apache/hadoop/hbase/security/UserProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="123" selection-start-line="123" selection-end-line="123" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../MvnRepo/org/apache/hadoop/hadoop-common/2.7.4/hadoop-common-2.7.4-sources.jar!/org/apache/hadoop/conf/Configuration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="2224" selection-start-line="2224" selection-end-line="2224" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../MvnRepo/org/apache/hbase/hbase-common/1.4.8/hbase-common-1.4.8-sources.jar!/org/apache/hadoop/hbase/HBaseConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="95" selection-start-line="95" selection-end-line="95" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../MvnRepo/org/apache/hbase/hbase-server/1.4.8/hbase-server-1.4.8-sources.jar!/org/apache/hadoop/hbase/coprocessor/ObserverContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="43" column="24" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../MvnRepo/junit/junit/4.11/junit-4.11-sources.jar!/org/junit/runners/ParentRunner.java" />
+    <entry file="jar://$PROJECT_DIR$/../../MvnRepo/junit/junit/4.11/junit-4.11-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java" />
+    <entry file="jar://$PROJECT_DIR$/../../MvnRepo/org/apache/hbase/hbase-common/1.4.8/hbase-common-1.4.8-sources.jar!/org/apache/hadoop/hbase/security/UserProvider.java" />
+    <entry file="jar://$PROJECT_DIR$/../../MvnRepo/org/apache/hadoop/hadoop-common/2.7.4/hadoop-common-2.7.4-sources.jar!/org/apache/hadoop/conf/Configuration.java" />
+    <entry file="jar://$PROJECT_DIR$/../../MvnRepo/org/apache/hbase/hbase-common/1.4.8/hbase-common-1.4.8-sources.jar!/org/apache/hadoop/hbase/HBaseConfiguration.java" />
+    <entry file="jar://$PROJECT_DIR$/../../MvnRepo/org/apache/hbase/hbase-server/1.4.8/hbase-server-1.4.8-sources.jar!/org/apache/hadoop/hbase/coprocessor/ObserverContext.java" />
     <entry file="file://$PROJECT_DIR$/doc/hbase">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/beans/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/beans/HBaseVersionTest.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -839,20 +673,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/beans/calllog/CallLogRegionObserver.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="242">
+          <caret line="16" column="4" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/beans/calllog/CallLogUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/beans/calllog/TestPutCallLog.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        <state relative-caret-position="343">
+          <caret line="30" column="65" selection-start-line="30" selection-start-column="57" selection-end-line="30" selection-end-column="65" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -871,20 +702,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/beans/calllog/CallLogUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="16" column="4" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/beans/calllog/TestPutCallLog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="30" column="65" selection-start-line="30" selection-start-column="57" selection-end-line="30" selection-end-column="65" />
+        <state relative-caret-position="96">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/beans/calllog/CallLogRegionObserver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/beans/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
         </state>
       </provider>
     </entry>
